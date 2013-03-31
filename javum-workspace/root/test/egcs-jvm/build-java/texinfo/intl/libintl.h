@@ -1,0 +1,1 @@
+../../../egcs-1.1.2/texinfo/intl/libgettext.h

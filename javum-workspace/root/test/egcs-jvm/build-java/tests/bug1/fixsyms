@@ -1,0 +1,11 @@
+#!/bin/sh
+sed 's/symrefBug1LC0end/sipush\ 4096/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefBug1_gend/sipush\ 4097/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefBug1LC1end/sipush\ 4099/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefBug1LC2end/sipush\ 4099/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefBug1___gnuc_va_listend/sipush\ 4105/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s

@@ -1,0 +1,2 @@
+This directory contains the run time support super class for JVM targeted
+C programs.  You should put this in your classpath.

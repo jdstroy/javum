@@ -1,0 +1,25 @@
+This is the JVM port of EGCS.  See http://www.csee.uq.edu.au/csm/ for
+details.  The following directories should be present:
+
+  build-java    Contains utilities for building JVM targeted C
+                    files and some example programs.
+  egcs-1.1.2    This contains some modifications to the egcs 1.1.2 source
+                    files. You need to install egcs 1.1.2 here, then untar
+                    egcs-jvm.tar again to get the modified files. Pick the
+                    most convenient mirror site from this page:
+                    http://gcc.gnu.org/mirrors.html
+                    gcc-jvm is unlikely to work with versions of egcs other than
+                    1.1.2, without at least minor changes.
+                    See the README.jvm file in this directory for making the
+                    compiler.
+  runtime       The runtime support class
+
+You also need jasmin (a Java assembler) installed and in your path. The Jasmin
+home page is http://found.cs.nyu.edu/meyer/jasmin (or you could try
+http://mrl.nyu.edu/meyer/jvm/jasmin.html); you can download Jasmin from that
+page. Jasmin is written in Java.
+
+This port is HIGHLY EXPERIMENTAL.  Do not expect to be able to compile and
+run significant programs.
+
+Trent Waddington 10/9/1999.

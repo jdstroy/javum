@@ -1,0 +1,37 @@
+#!/bin/sh
+sed 's/symrefWebfix_buffer.22end/sipush\ 4096/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfix_i.23end/sipush\ 4116/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfix_path.26end/sipush\ 4118/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC0end/sipush\ 5142/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC1end/sipush\ 5144/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC2end/sipush\ 5177/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC3end/sipush\ 5180/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfix_new_path.27end/sipush\ 5209/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC4end/sipush\ 6233/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC5end/sipush\ 6248/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC6end/sipush\ 6252/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC7end/sipush\ 6257/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC8end/sipush\ 6272/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC9end/sipush\ 6302/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC10end/sipush\ 6323/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC11end/sipush\ 6358/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfixLC12end/sipush\ 6396/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefWebfix___gnuc_va_listend/sipush\ 6434/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s

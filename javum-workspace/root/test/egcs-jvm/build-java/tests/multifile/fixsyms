@@ -1,0 +1,5 @@
+#!/bin/sh
+sed 's/symrefFile1LC0end/sipush\ 4096/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefFile2LC0end/sipush\ 4105/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s

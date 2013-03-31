@@ -1,0 +1,5 @@
+#!/bin/sh
+sed 's/symrefMyarrayLC0end/sipush\ 4096/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefMyarrayLC1end/sipush\ 4100/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s

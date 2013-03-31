@@ -1,0 +1,203 @@
+#!/bin/sh
+sed 's/symrefSwitchLC0end/sipush\ 4096/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC1end/sipush\ 4099/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC2end/sipush\ 4103/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC3end/sipush\ 4107/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC4end/sipush\ 4111/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC5end/sipush\ 4115/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC6end/sipush\ 4119/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC7end/sipush\ 4123/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC8end/sipush\ 4127/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC9end/sipush\ 4130/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC10end/sipush\ 4134/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC11end/sipush\ 4138/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC12end/sipush\ 4142/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC13end/sipush\ 4145/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC14end/sipush\ 4149/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC15end/sipush\ 4152/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC16end/sipush\ 4156/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC17end/sipush\ 4160/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC18end/sipush\ 4164/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC19end/sipush\ 4168/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC20end/sipush\ 4172/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC21end/sipush\ 4176/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC22end/sipush\ 4180/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC23end/sipush\ 4184/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC24end/sipush\ 4188/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC25end/sipush\ 4192/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC26end/sipush\ 4196/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC27end/sipush\ 4200/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC28end/sipush\ 4204/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC29end/sipush\ 4208/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC30end/sipush\ 4212/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC31end/sipush\ 4216/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC32end/sipush\ 4220/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC33end/sipush\ 4224/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC34end/sipush\ 4228/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC35end/sipush\ 4232/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC36end/sipush\ 4236/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC37end/sipush\ 4240/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC38end/sipush\ 4244/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC39end/sipush\ 4248/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC40end/sipush\ 4252/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC41end/sipush\ 4256/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC42end/sipush\ 4260/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC43end/sipush\ 4264/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC44end/sipush\ 4268/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC45end/sipush\ 4272/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC46end/sipush\ 4276/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC47end/sipush\ 4280/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC48end/sipush\ 4284/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC49end/sipush\ 4287/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC50end/sipush\ 4291/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC51end/sipush\ 4295/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC52end/sipush\ 4298/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC53end/sipush\ 4301/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC54end/sipush\ 4305/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC55end/sipush\ 4309/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC56end/sipush\ 4313/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC57end/sipush\ 4317/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC58end/sipush\ 4321/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC59end/sipush\ 4325/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC60end/sipush\ 4329/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC61end/sipush\ 4333/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC62end/sipush\ 4337/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC63end/sipush\ 4341/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC64end/sipush\ 4343/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC65end/sipush\ 4347/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC66end/sipush\ 4351/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC67end/sipush\ 4355/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC68end/sipush\ 4359/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC69end/sipush\ 4363/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC70end/sipush\ 4367/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC71end/sipush\ 4371/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC72end/sipush\ 4375/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC73end/sipush\ 4379/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC74end/sipush\ 4382/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC75end/sipush\ 4386/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC76end/sipush\ 4390/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC77end/sipush\ 4394/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC78end/sipush\ 4398/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC79end/sipush\ 4401/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC80end/sipush\ 4405/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC81end/sipush\ 4409/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC82end/sipush\ 4413/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC83end/sipush\ 4417/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC84end/sipush\ 4420/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC85end/sipush\ 4424/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC86end/sipush\ 4427/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC87end/sipush\ 4431/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC88end/sipush\ 4435/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC89end/sipush\ 4439/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC90end/sipush\ 4443/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC91end/sipush\ 4446/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC92end/sipush\ 4450/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC93end/sipush\ 4454/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC94end/sipush\ 4458/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC95end/sipush\ 4462/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC96end/sipush\ 4466/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC97end/sipush\ 4470/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC98end/sipush\ 4474/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC99end/sipush\ 4478/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+sed 's/symrefSwitchLC100end/sipush\ 4482/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s

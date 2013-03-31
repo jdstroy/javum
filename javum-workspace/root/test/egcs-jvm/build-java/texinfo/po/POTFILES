@@ -1,0 +1,19 @@
+	../../../egcs-1.1.2/texinfo/info/echo-area.c \
+	../../../egcs-1.1.2/texinfo/info/footnotes.c \
+	../../../egcs-1.1.2/texinfo/info/footnotes.h \
+	../../../egcs-1.1.2/texinfo/info/indices.c \
+	../../../egcs-1.1.2/texinfo/info/info.c \
+	../../../egcs-1.1.2/texinfo/info/info.h \
+	../../../egcs-1.1.2/texinfo/info/infodoc.c \
+	../../../egcs-1.1.2/texinfo/info/m-x.c \
+	../../../egcs-1.1.2/texinfo/info/makedoc.c \
+	../../../egcs-1.1.2/texinfo/info/nodemenu.c \
+	../../../egcs-1.1.2/texinfo/info/session.c \
+	../../../egcs-1.1.2/texinfo/info/tilde.c \
+	../../../egcs-1.1.2/texinfo/info/variables.c \
+	../../../egcs-1.1.2/texinfo/info/window.c \
+	../../../egcs-1.1.2/texinfo/lib/getopt.c \
+	../../../egcs-1.1.2/texinfo/makeinfo/makeinfo.c \
+	../../../egcs-1.1.2/texinfo/makeinfo/multi.c \
+	../../../egcs-1.1.2/texinfo/util/install-info.c \
+	../../../egcs-1.1.2/texinfo/util/texindex.c

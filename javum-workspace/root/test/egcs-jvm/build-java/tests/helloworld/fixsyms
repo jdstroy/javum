@@ -1,0 +1,3 @@
+#!/bin/sh
+sed 's/symrefHelloLC0end/sipush\ 4096/' < gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s

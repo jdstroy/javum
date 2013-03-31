@@ -1,0 +1,4 @@
+#!/bin/bash
+
+java -jar $JASMIN_HOME/jasmin.jar $*
+exit $?

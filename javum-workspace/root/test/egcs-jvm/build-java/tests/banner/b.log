@@ -1,0 +1,386 @@
+rm -f gglobal.s gglobalw.s global.s global.o gglobal.o \
+	banner.j banner.i \
+	prog.j global fixsyms Banner.class *~
+../../mkj.sh banner
+Building banner....
+In file included from banner.c:25:
+/usr/include/stdio.h:0: warning: unrecognized text at end of #line
+/usr/include/stdio.h:27: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/features.h:0: warning: unrecognized text at end of #line
+/usr/include/features.h:322: warning: unrecognized text at end of #line
+In file included from /usr/include/features.h:323,
+                 from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/sys/cdefs.h:0: warning: unrecognized text at end of #line
+/usr/include/sys/cdefs.h:312: warning: unrecognized text at end of #line
+In file included from /usr/include/sys/cdefs.h:313,
+                 from /usr/include/features.h:323,
+                 from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/bits/wordsize.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/features.h:323,
+                 from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/sys/cdefs.h:313: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/features.h:323: warning: unrecognized text at end of #line
+/usr/include/features.h:345: warning: unrecognized text at end of #line
+In file included from /usr/include/features.h:346,
+                 from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/gnu/stubs.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/gnu/stubs.h:4,
+                 from /usr/include/features.h:346,
+                 from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/bits/wordsize.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/features.h:346,
+                 from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/gnu/stubs.h:4: warning: unrecognized text at end of #line
+In file included from /usr/include/gnu/stubs.h:7,
+                 from /usr/include/features.h:346,
+                 from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/gnu/stubs-32.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/features.h:346,
+                 from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/gnu/stubs.h:7: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:28,
+                 from banner.c:25:
+/usr/include/features.h:346: warning: unrecognized text at end of #line
+In file included from banner.c:25:
+/usr/include/stdio.h:28: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:34,
+                 from banner.c:25:
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stddef.h:0: warning: unrecognized text at end of #line
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stddef.h:213: warning: unrecognized text at end of #line
+In file included from banner.c:25:
+/usr/include/stdio.h:34: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:36,
+                 from banner.c:25:
+/usr/include/bits/types.h:0: warning: unrecognized text at end of #line
+/usr/include/bits/types.h:27: warning: unrecognized text at end of #line
+In file included from /usr/include/bits/types.h:28,
+                 from /usr/include/stdio.h:36,
+                 from banner.c:25:
+/usr/include/bits/wordsize.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:36,
+                 from banner.c:25:
+/usr/include/bits/types.h:28: warning: unrecognized text at end of #line
+In file included from /usr/include/bits/types.h:31,
+                 from /usr/include/stdio.h:36,
+                 from banner.c:25:
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stddef.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:36,
+                 from banner.c:25:
+/usr/include/bits/types.h:31: warning: unrecognized text at end of #line
+/usr/include/bits/types.h:133: warning: unrecognized text at end of #line
+In file included from /usr/include/bits/types.h:134,
+                 from /usr/include/stdio.h:36,
+                 from banner.c:25:
+/usr/include/bits/typesizes.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:36,
+                 from banner.c:25:
+/usr/include/bits/types.h:134: warning: unrecognized text at end of #line
+In file included from banner.c:25:
+/usr/include/stdio.h:36: warning: unrecognized text at end of #line
+/usr/include/stdio.h:61: warning: unrecognized text at end of #line
+/usr/include/stdio.h:71: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/libio.h:0: warning: unrecognized text at end of #line
+/usr/include/libio.h:31: warning: unrecognized text at end of #line
+In file included from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/_G_config.h:0: warning: unrecognized text at end of #line
+/usr/include/_G_config.h:13: warning: unrecognized text at end of #line
+In file included from /usr/include/_G_config.h:14,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stddef.h:0: warning: unrecognized text at end of #line
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stddef.h:325: warning: unrecognized text at end of #line
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stddef.h:354: warning: unrecognized text at end of #line
+In file included from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/_G_config.h:14: warning: unrecognized text at end of #line
+/usr/include/_G_config.h:23: warning: unrecognized text at end of #line
+In file included from /usr/include/_G_config.h:24,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/wchar.h:0: warning: unrecognized text at end of #line
+/usr/include/wchar.h:47: warning: unrecognized text at end of #line
+In file included from /usr/include/wchar.h:48,
+                 from /usr/include/_G_config.h:24,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stddef.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/_G_config.h:24,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/wchar.h:48: warning: unrecognized text at end of #line
+In file included from /usr/include/wchar.h:50,
+                 from /usr/include/_G_config.h:24,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/bits/wchar.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/_G_config.h:24,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/wchar.h:50: warning: unrecognized text at end of #line
+/usr/include/wchar.h:75: warning: unrecognized text at end of #line
+In file included from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/_G_config.h:24: warning: unrecognized text at end of #line
+/usr/include/_G_config.h:43: warning: unrecognized text at end of #line
+In file included from /usr/include/_G_config.h:44,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/gconv.h:0: warning: unrecognized text at end of #line
+/usr/include/gconv.h:27: warning: unrecognized text at end of #line
+In file included from /usr/include/gconv.h:28,
+                 from /usr/include/_G_config.h:44,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/wchar.h:0: warning: unrecognized text at end of #line
+/usr/include/wchar.h:47: warning: unrecognized text at end of #line
+In file included from /usr/include/wchar.h:48,
+                 from /usr/include/gconv.h:28,
+                 from /usr/include/_G_config.h:44,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stddef.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/gconv.h:28,
+                 from /usr/include/_G_config.h:44,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/wchar.h:48: warning: unrecognized text at end of #line
+In file included from /usr/include/_G_config.h:44,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/gconv.h:28: warning: unrecognized text at end of #line
+In file included from /usr/include/gconv.h:31,
+                 from /usr/include/_G_config.h:44,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stddef.h:0: warning: unrecognized text at end of #line
+In file included from /usr/include/_G_config.h:44,
+                 from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/gconv.h:31: warning: unrecognized text at end of #line
+/usr/include/gconv.h:176: field `__data' has incomplete type
+In file included from /usr/include/libio.h:32,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/_G_config.h:44: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/libio.h:32: warning: unrecognized text at end of #line
+/usr/include/libio.h:52: warning: unrecognized text at end of #line
+In file included from /usr/include/libio.h:53,
+                 from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stdarg.h:0: warning: unrecognized text at end of #line
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stdarg.h:42: warning: unrecognized text at end of #line
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stdarg.h:43: parse error before `__gnuc_va_list'
+/usr/lib/gcc/i486-linux-gnu/4.1.2/include/stdarg.h:43: warning: data definition has no type or storage class
+In file included from /usr/include/stdio.h:72,
+                 from banner.c:25:
+/usr/include/libio.h:53: warning: unrecognized text at end of #line
+/usr/include/libio.h:165: warning: unrecognized text at end of #line
+/usr/include/libio.h:175: warning: unrecognized text at end of #line
+/usr/include/libio.h:198: warning: unrecognized text at end of #line
+/usr/include/libio.h:266: warning: unrecognized text at end of #line
+/usr/include/libio.h:314: warning: unrecognized text at end of #line
+/usr/include/libio.h:323: warning: unrecognized text at end of #line
+/usr/include/libio.h:359: warning: unrecognized text at end of #line
+/usr/include/libio.h:411: warning: unrecognized text at end of #line
+/usr/include/libio.h:412: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:413: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:414: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:415: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:416: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:417: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:449: warning: unrecognized text at end of #line
+/usr/include/libio.h:450: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:451: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:452: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:453: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:455: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:461: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:462: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:463: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:479: warning: unrecognized text at end of #line
+/usr/include/libio.h:480: conflicting types for `__restrict'
+/usr/include/libio.h:480: previous declaration of `__restrict'
+/usr/include/libio.h:481: parse error before `__gnuc_va_list'
+/usr/include/libio.h:482: conflicting types for `__restrict'
+/usr/include/libio.h:482: previous declaration of `__restrict'
+/usr/include/libio.h:483: parse error before `__gnuc_va_list'
+/usr/include/libio.h:484: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:485: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:487: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:488: warning: `__nothrow__' attribute directive ignored
+/usr/include/libio.h:490: warning: `__nothrow__' attribute directive ignored
+In file included from banner.c:25:
+/usr/include/stdio.h:72: warning: unrecognized text at end of #line
+/usr/include/stdio.h:85: warning: unrecognized text at end of #line
+/usr/include/stdio.h:137: warning: unrecognized text at end of #line
+In file included from /usr/include/stdio.h:138,
+                 from banner.c:25:
+/usr/include/bits/stdio_lim.h:0: warning: unrecognized text at end of #line
+In file included from banner.c:25:
+/usr/include/stdio.h:138: warning: unrecognized text at end of #line
+/usr/include/stdio.h:152: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:154: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:182: warning: unrecognized text at end of #line
+/usr/include/stdio.h:183: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:189: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:200: warning: unrecognized text at end of #line
+/usr/include/stdio.h:202: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:202: warning: `__malloc__' attribute directive ignored
+/usr/include/stdio.h:225: warning: unrecognized text at end of #line
+/usr/include/stdio.h:239: warning: unrecognized text at end of #line
+/usr/include/stdio.h:246: parse error before `__filename'
+/usr/include/stdio.h:252: parse error before `__filename'
+/usr/include/stdio.h:266: warning: unrecognized text at end of #line
+/usr/include/stdio.h:277: warning: unrecognized text at end of #line
+/usr/include/stdio.h:278: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:303: warning: unrecognized text at end of #line
+/usr/include/stdio.h:307: parse error before `__stream'
+/usr/include/stdio.h:307: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:311: parse error before `__stream'
+/usr/include/stdio.h:312: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:318: parse error before `__stream'
+/usr/include/stdio.h:319: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:322: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:331: parse error before `__stream'
+/usr/include/stdio.h:337: parse error before `__format'
+/usr/include/stdio.h:339: parse error before `__s'
+/usr/include/stdio.h:340: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:346: parse error before `__s'
+/usr/include/stdio.h:352: parse error before `__format'
+/usr/include/stdio.h:354: parse error before `__s'
+/usr/include/stdio.h:355: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:361: parse error before `__s'
+/usr/include/stdio.h:363: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:365: parse error before `__s'
+/usr/include/stdio.h:367: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:397: warning: unrecognized text at end of #line
+/usr/include/stdio.h:403: parse error before `__stream'
+/usr/include/stdio.h:409: parse error before `__format'
+/usr/include/stdio.h:411: parse error before `__s'
+/usr/include/stdio.h:412: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:439: warning: unrecognized text at end of #line
+/usr/include/stdio.h:463: warning: unrecognized text at end of #line
+/usr/include/stdio.h:474: warning: unrecognized text at end of #line
+/usr/include/stdio.h:507: warning: unrecognized text at end of #line
+/usr/include/stdio.h:536: parse error before `__s'
+/usr/include/stdio.h:588: warning: unrecognized text at end of #line
+/usr/include/stdio.h:594: parse error before `__s'
+/usr/include/stdio.h:614: parse error before `__ptr'
+/usr/include/stdio.h:620: parse error before `__ptr'
+/usr/include/stdio.h:641: warning: unrecognized text at end of #line
+/usr/include/stdio.h:642: parse error before `__ptr'
+/usr/include/stdio.h:644: parse error before `__ptr'
+/usr/include/stdio.h:677: warning: unrecognized text at end of #line
+/usr/include/stdio.h:696: warning: unrecognized text at end of #line
+/usr/include/stdio.h:703: parse error before `__stream'
+/usr/include/stdio.h:719: warning: unrecognized text at end of #line
+/usr/include/stdio.h:728: warning: unrecognized text at end of #line
+/usr/include/stdio.h:731: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:733: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:735: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:740: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:741: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:742: warning: `__nothrow__' attribute directive ignored
+In file included from /usr/include/stdio.h:758,
+                 from banner.c:25:
+/usr/include/bits/sys_errlist.h:0: warning: unrecognized text at end of #line
+/usr/include/bits/sys_errlist.h:26: warning: unrecognized text at end of #line
+In file included from banner.c:25:
+/usr/include/stdio.h:758: warning: unrecognized text at end of #line
+/usr/include/stdio.h:763: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:768: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:777: warning: unrecognized text at end of #line
+/usr/include/stdio.h:790: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:817: warning: unrecognized text at end of #line
+/usr/include/stdio.h:818: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:822: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:825: warning: `__nothrow__' attribute directive ignored
+/usr/include/stdio.h:847: warning: unrecognized text at end of #line
+ main
+banner.c: In function `main':
+banner.c:125: warning: return type of `main' is not `int'
+
+time in parse: 0.000000
+time in integration: 0.000000
+time in jump: 0.000000
+time in cse: 0.000000
+time in gcse: 0.000000
+time in loop: 0.000000
+time in cse2: 0.000000
+time in branch-prob: 0.000000
+time in flow: 0.000000
+time in combine: 0.010000
+time in regmove: 0.000000
+time in sched: 0.000000
+time in local-alloc: 0.000000
+time in global-alloc: 0.000000
+time in sched2: 0.000000
+time in shorten-branch: 0.000000
+time in stack-reg: 0.000000
+time in final: 0.000000
+time in varconst: 0.000000
+time in symout: 0.000000
+time in dump: 0.000000
+sed -e s/uaword/word/ <gglobal.s >gglobalw.s
+as gglobalw.s -o global.o
+objcopy global.o global -O binary -R .data -R .bss
+cat ../../readData.j banner.j > prog.j
+echo '.method globalsize()I' >> prog.j
+echo .limit locals 2 >> prog.j
+echo .limit stack 3 >> prog.j
+echo sipush `ls -l global | gawk '{print $5}'` >> prog.j
+/bin/sh: gawk: not found
+echo ireturn >> prog.j
+echo .end method >> prog.j
+echo '#!/bin/sh' > fixsyms
+objdump --sym global.o | tail +8 | ../../rep prog.j >> fixsyms
+tail: Warning: "+number" syntax is deprecated, please use "-n +number"
+chmod 755 fixsyms
+./fixsyms
+echo '#!/bin/sh' > fixsyms
+objdump --sym global.o | tail +8 | ../../rep gglobal.s >> fixsyms
+tail: Warning: "+number" syntax is deprecated, please use "-n +number"
+chmod 755 fixsyms
+./fixsyms
+sed -e s/uaword/word/ -e s/sipush// gglobal.s > gglobal.s.tmp
+mv -f gglobal.s.tmp gglobal.s
+as gglobal.s -o global.o
+objcopy global.o global -O binary -R .data -R .bss	
+sed s/Prog/Banner/ prog.j > prog.j.tmp
+mv -f prog.j.tmp prog.j
+jasmin prog.j
+make: jasmin: Command not found
+make: *** [java] Error 127

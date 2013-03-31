@@ -1,0 +1,6 @@
+This example is one I just grabbed off the web.  It compiles fine, but it
+will not run correctly because the library functions it uses have not been
+implemented.  This is a TO DO thing.. so if you feel like implementing
+functions like "opendir" in java, look at runtime/TranslatedFile.java.
+
+Trent Waddington
